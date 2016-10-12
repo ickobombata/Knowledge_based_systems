@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1448103936 source:c:\users\kejot\desktop\maze\main.cpp
+	<iostream>
+	"Maze.h"
+
+1448107295 source:c:\users\kejot\desktop\maze\src\cell.cpp
+	"Cell.h"
+
+1448106323 c:\users\kejot\desktop\maze\include\cell.h
+	<Maze.h>
+	<iostream>
+	<queue>
+
+1448106484 c:\users\kejot\desktop\maze\include\maze.h
+	"Cell.h"
+	<queue>
+	<iostream>
+	<vector>
+	<fstream>
+	<string>
+	<cmath>
+	<iomanip>
+
+1448107725 source:c:\users\kejot\desktop\maze\src\maze.cpp
+	"Maze.h"
+

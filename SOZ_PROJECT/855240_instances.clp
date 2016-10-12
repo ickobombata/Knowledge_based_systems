@@ -1,0 +1,402 @@
+; Sat Jan 23 13:35:24 EET 2016
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances start
+
+([drinkingSuggester_Class17] of  Beer
+
+	(alcohol_percentage 3)
+	(cold TRUE)
+	(how_healty 20)
+	(light TRUE)
+	(name_object "Kamenica")
+	(Weight 0.5))
+
+([drinkingSuggester_Class18] of  Beer
+
+	(alcohol_percentage 5)
+	(cold TRUE)
+	(how_healty 20)
+	(light FALSE)
+	(name_object "Kamenica")
+	(Weight 0.5))
+
+([drinkingSuggester_Class19] of  Beer
+
+	(alcohol_percentage 3)
+	(how_healty 20)
+	(light TRUE)
+	(name_object "Pirinsko")
+	(Weight 0.33))
+
+([drinkingSuggester_Class20] of  Beer
+
+	(alcohol_percentage 5)
+	(cold TRUE)
+	(how_healty 15)
+	(light TRUE)
+	(name_object "Corona")
+	(Weight 0.355))
+
+([drinkingSuggester_Class21] of  Beer
+
+	(alcohol_percentage 3)
+	(how_healty 20)
+	(light TRUE)
+	(name_object "Shumensko")
+	(Weight 0.5))
+
+([drinkingSuggester_Class22] of  Cider
+
+	(alcohol_percentage 10)
+	(cold TRUE)
+	(how_healty 30)
+	(name_object "Apple Cider Sangria")
+	(Weight 0.3))
+
+([drinkingSuggester_Class23] of  Cider
+
+	(alcohol_percentage 10)
+	(cold TRUE)
+	(how_healty 30)
+	(name_object "Warm Vanilla Cider")
+	(Weight 0.3))
+
+([drinkingSuggester_Class24] of  Cider
+
+	(alcohol_percentage 20)
+	(cold TRUE)
+	(how_healty 25)
+	(name_object "Bourbon Apple Cider")
+	(Weight 0.3))
+
+([drinkingSuggester_Class25] of  Cider
+
+	(alcohol_percentage 15)
+	(how_healty 20)
+	(name_object "Cranberry Apple Cider Cocktail")
+	(Weight 0.4))
+
+([drinkingSuggester_Class26] of  Cider
+
+	(alcohol_percentage 20)
+	(how_healty 20)
+	(name_object "The Young Buck")
+	(Weight 0.25))
+
+([drinkingSuggester_Class27] of  Cider
+
+	(alcohol_percentage 25)
+	(cold TRUE)
+	(how_healty 25)
+	(name_object "Cider Rum Punch")
+	(Weight 0.3))
+
+([drinkingSuggester_Class28] of  Spirits
+
+	(alcohol_percentage 45)
+	(cold TRUE)
+	(how_healty 15)
+	(name_object "Scotch whisky")
+	(Weight 0.05))
+
+([drinkingSuggester_Class29] of  Spirits
+
+	(alcohol_percentage 40)
+	(cold TRUE)
+	(how_healty 15)
+	(name_object "vodka")
+	(Weight 0.05))
+
+([drinkingSuggester_Class30] of  Spirits
+
+	(alcohol_percentage 40)
+	(how_healty 15)
+	(name_object "Bourbon whiskey")
+	(Weight 0.05))
+
+([drinkingSuggester_Class31] of  Spirits
+
+	(alcohol_percentage 55)
+	(cold TRUE)
+	(how_healty 20)
+	(name_object "Rakia")
+	(Weight 0.5))
+
+([drinkingSuggester_Class32] of  Spirits
+
+	(alcohol_percentage 45)
+	(how_healty 20)
+	(name_object "Rum")
+	(Weight 0.1))
+
+([drinkingSuggester_Class33] of  Wine
+
+	(alcohol_percentage 15)
+	(cold TRUE)
+	(how_healty 50)
+	(name_object "Red")
+	(Weight 0.2))
+
+([drinkingSuggester_Class34] of  Wine
+
+	(alcohol_percentage 12)
+	(cold TRUE)
+	(how_healty 35)
+	(name_object "White")
+	(Weight 0.2))
+
+([drinkingSuggester_Class35] of  Wine
+
+	(alcohol_percentage 15)
+	(how_healty 30)
+	(name_object "White")
+	(Weight 0.2))
+
+([drinkingSuggester_Class36] of  Wine
+
+	(alcohol_percentage 10)
+	(cold TRUE)
+	(how_healty 35)
+	(name_object "Rose")
+	(Weight 0.2))
+
+([drinkingSuggester_Class37] of  Coffee
+
+	(cold TRUE)
+	(how_healty 10)
+	(name_object "Nescafe")
+	(Weight 0.3))
+
+([drinkingSuggester_Class38] of  Coffee
+
+	(how_healty 10)
+	(name_object "Nescafe")
+	(Weight 0.3))
+
+([drinkingSuggester_Class39] of  Coffee
+
+	(how_healty 15)
+	(name_object "Tursko")
+	(Weight 0.1))
+
+([drinkingSuggester_Class40] of  Juice
+
+	(cold TRUE)
+	(how_healty 100)
+	(name_object "Apple")
+	(Weight 0.3))
+
+([drinkingSuggester_Class41] of  Juice
+
+	(cold TRUE)
+	(how_healty 100)
+	(name_object "Carrot")
+	(Weight 0.3))
+
+([drinkingSuggester_Class42] of  Juice
+
+	(cold TRUE)
+	(how_healty 100)
+	(name_object "Peach")
+	(Weight 0.3))
+
+([drinkingSuggester_Class43] of  Juice
+
+	(cold TRUE)
+	(how_healty 100)
+	(name_object "Multi")
+	(Weight 0.3))
+
+([drinkingSuggester_Class44] of  Juice
+
+	(cold FALSE)
+	(how_healty 100)
+	(name_object "Apple")
+	(Weight 0.3))
+
+([drinkingSuggester_Class45] of  Juice
+
+	(cold FALSE)
+	(how_healty 100)
+	(name_object "Carrot")
+	(Weight 0.3))
+
+([drinkingSuggester_Class46] of  Juice
+
+	(cold FALSE)
+	(how_healty 100)
+	(name_object "Peach")
+	(Weight 0.3))
+
+([drinkingSuggester_Class47] of  Juice
+
+	(cold FALSE)
+	(how_healty 100)
+	(name_object "Multi")
+	(Weight 0.3))
+
+([drinkingSuggester_Class48] of  Water
+
+	(cold TRUE)
+	(how_healty 100)
+	(name_object "Water")
+	(Weight 0.3))
+
+([drinkingSuggester_Class49] of  Water
+
+	(how_healty 100)
+	(name_object "Water")
+	(Weight 0.3))
+
+([drinkingSuggester_Class50] of  Meat
+
+	(how_healty 40)
+	(name_object "Meat Pizza with Red Sauce"))
+
+([drinkingSuggester_Class51] of  Meat
+
+	(how_healty 30)
+	(name_object "Meatloaf Muffins with Barbecue Sauce")
+	(salty TRUE))
+
+([drinkingSuggester_Class52] of  Meat
+
+	(how_healty 30)
+	(name_object "Turkey Meatloaf")
+	(salty TRUE))
+
+([drinkingSuggester_Class53] of  Meat
+
+	(how_healty 40)
+	(name_object "Meat and Cheese Antipasticks")
+	(salty TRUE))
+
+([drinkingSuggester_Class54] of  Meat
+
+	(how_healty 30)
+	(name_object "British Meat Pies")
+	(salty TRUE))
+
+([drinkingSuggester_Class55] of  Meat
+
+	(how_healty 30)
+	(name_object "Mighty Meaty Meatloaf"))
+
+([drinkingSuggester_Class56] of  Meat
+
+	(how_healty 20)
+	(name_object "Smoke Meat")
+	(salty TRUE))
+
+([drinkingSuggester_Class63] of  Snacks
+
+	(how_healty 30)
+	(name_object "Chips")
+	(salty TRUE))
+
+([drinkingSuggester_Class67] of  Salad
+
+	(how_healty 60)
+	(name_object "Chilean salad")
+	(salty TRUE))
+
+([drinkingSuggester_Class68] of  Salad
+
+	(how_healty 80)
+	(name_object "Cobb salad")
+	(salty TRUE))
+
+([drinkingSuggester_Class69] of  Salad
+
+	(how_healty 90)
+	(name_object "Coleslaw")
+	(salty TRUE))
+
+([drinkingSuggester_Class70] of  Salad
+
+	(how_healty 60)
+	(name_object "Crab Louie"))
+
+([drinkingSuggester_Class71] of  Salad
+
+	(how_healty 80)
+	(name_object "Egg salad")
+	(salty TRUE))
+
+([drinkingSuggester_Class72] of  Salad
+
+	(how_healty 100)
+	(name_object "Fruit salad"))
+
+([drinkingSuggester_Class73] of  Snacks
+
+	(how_healty 40)
+	(name_object "Soleti")
+	(salty TRUE))
+
+([drinkingSuggester_Class74] of  Snacks
+
+	(how_healty 30)
+	(name_object "Candy bar")
+	(salty FALSE))
+
+([drinkingSuggester_Class75] of  Snacks
+
+	(how_healty 30)
+	(name_object "Ice cream"))
+
+([drinkingSuggester_Class76] of  Party
+
+	(crush_is_there TRUE)
+	(people_number 30)
+	(type FamilyGathering))
+
+([drinkingSuggester_Class77] of  Party
+
+	(crush_is_there TRUE)
+	(people_number 30)
+	(type December8))
+
+([drinkingSuggester_Class78] of  Person
+
+	(age 20)
+	(how_healty 20)
+	(mood 70)
+	(name_object "Pesho")
+	(prefers_drink [drinkingSuggester_Class19])
+	(prefers_food [drinkingSuggester_Class74]))
+
+([drinkingSuggester_Class79] of  Person
+
+	(age 25)
+	(how_healty 70)
+	(is_driving TRUE)
+	(mood 80)
+	(name_object "Icko")
+	(prefers_drink [drinkingSuggester_Class34])
+	(prefers_food
+		[drinkingSuggester_Class53]
+		[drinkingSuggester_Class54]))
+
+([drinkingSuggester_Class81] of  Person
+
+	(age 20)
+	(how_healty 90)
+	(is_driving FALSE)
+	(mood 90)
+	(name_object "Veronica")
+	(prefers_drink [drinkingSuggester_Class25]))
+
+([drinkingSuggester_Class82] of  Season
+
+	(season Summer)
+	(temperature 35.0))
+
+([drinkingSuggester_Class83] of  Season
+
+	(season Winter))
+
+)

@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1451858950 source:c:\users\kejot\desktop\coingame\main.cpp
+	<iostream>
+	"Solver.h"
+
+1451859076 c:\users\kejot\desktop\coingame\include\solver.h
+	<iostream>
+	<list>
+	<vector>
+	<algorithm>
+	<climits>
+	<iomanip>
+	<time.h>
+
+1451858880 source:c:\users\kejot\desktop\coingame\src\solver.cpp
+	"Solver.h"
+
